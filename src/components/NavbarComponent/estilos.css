@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -25,6 +28,8 @@
     display: flex;
     list-style: none;
     margin-right: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav ul li {
@@ -36,4 +41,16 @@
     line-height: 70px;
     color: white;
     cursor: pointer;
+}
+
+.iconoCarro {
+    font-size: 2em;
+    top: 50px;
+    right: 20px;
+    line-height: 70px;
+    z-index: 101;
+}
+
+.container-cards {
+    margin-top: 190px;
 }

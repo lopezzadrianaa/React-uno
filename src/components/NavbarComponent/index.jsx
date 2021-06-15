@@ -1,4 +1,7 @@
+import { CartWidget } from './CartWidget';
 import './estilos.css';
+
+
 
 export const NavBarComponent = () => {
     return (
@@ -6,9 +9,10 @@ export const NavBarComponent = () => {
             <h1 className="logo">LOGO</h1>
             <nav className="nav">
                 <ul>
-                    <li><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
-                    <li><a>Link 3</a></li>
+                    <li><a>Acústicas</a></li>
+                    <li><a>Electroacústicas</a></li>
+                    <li><a>Eléctricas</a></li>
+                    <CartWidget/>
                 </ul>
             </nav>
         </header>
